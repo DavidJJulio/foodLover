@@ -1,1 +1,40 @@
 @import url(variables.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: var(--color-font);
+    
+}
+header {
+    width: auto;
+    height: 200px;
+}
+nav {
+    width: auto;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(134, 134, 134);
+
+}
+header div{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 25px;
+}
+
+.img div {
+    width: 97px;
+    height: 80px;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
