@@ -411,13 +411,25 @@ header div{
     height: 60vh;
 }
 .contimg4 {
+    z-index: 100;
+    object-fit: contain;
     width: 30%;
-    height: 60vh;
-    background-color: aliceblue;
+    height: 50vh;
     margin-right: 150px;
 }
 .sub {
-    width: 30%;
+    width: 40%;
     height: 60vh;
-    background-color: blue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.h222 {
+    font-size: x-large;
+    color: var(--color-font);
+}
+.h111 {
+    font-size: x-large;
+    margin-bottom: 50px;
+    color: var(--color-font);
 }
